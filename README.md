@@ -1,1 +1,1 @@
-# emmi-photographer.ru
+# emmi-photographer.github.io
