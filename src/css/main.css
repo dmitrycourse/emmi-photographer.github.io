@@ -372,7 +372,7 @@ body {
   font-family: 'Futura PT', sans-serif;
 }
 .screen__title-wrapper{
-  width: 90%;
+  width: 85%;
   position: absolute;
   z-index: 2;
   top:50%;
