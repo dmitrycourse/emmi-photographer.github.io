@@ -109,7 +109,7 @@ function pagePaginationContacts() {
         let page__pagination__contacts = document.querySelector(".wrapper._loaded .page__pagination");
 
         if (pageSlider.realIndex == 6) {
-            page__pagination__contacts.style.transform = "translate(50px, -50%)";
+            page__pagination__contacts.style.transform = "translate(65px, -50%)";
         } else {
             page__pagination__contacts.style.transform = "translate(0px, -50%)"; 
         }
