@@ -93,7 +93,7 @@ let pageSlider = new Swiper('.page', {
         slideChange: function () {
             menuSliderRemove();
             menuLinks[pageSlider.realIndex].classList.add('_active');
-            swiperParallax();
+            pagePaginationContacts();
         },
         resize: function () {
             setScrollType();
@@ -104,8 +104,16 @@ let pageSlider = new Swiper('.page', {
 
 let menuLinks = document.querySelectorAll('.menu__link');
 
-function swiperParallax() {
+function pagePaginationContacts() {
 
+    
+        if (pageSlider.realIndex == 6) {
+            let page__pagination__contacts = document.querySelector(".wrapper._loaded .page__pagination");
+            page__pagination__contacts.style.transform = "translate(50px, -50%)";
+        } else {
+            let page__pagination__contacts = document.querySelector(".wrapper._loaded .page__pagination");
+            page__pagination__contacts.style.transform = "translate(0px, -50%)"; 
+        }
 //     if (pageSlider.realIndex - 1 > 0) {
 //         element[pageSlider.realIndex - 1].setAttribute('data-swiper-parallax', "100%");
 //         element[pageSlider.realIndex + 1].setAttribute('data-swiper-parallax', "100%");
