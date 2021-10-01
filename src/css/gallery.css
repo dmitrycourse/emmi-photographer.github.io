@@ -164,7 +164,6 @@ ul li {
 }
 
 img {
-  width: 100%;
   border-style: none;
 }
 
@@ -210,11 +209,6 @@ a {
     transition: 0.3s ease;
 }
 
-.section-link__text span:hover{
-  color: #7a956b;
-  transition: 0.3s ease;
-
-}
 
 
 
@@ -427,10 +421,6 @@ a {
   }
 */
 
-
-
-
-
 @media (max-width: 768px){
 .section-link {
     top: 80%;
@@ -446,6 +436,9 @@ a {
   transform: rotate(90deg) ;
 }
 }
+
+
+
 
   
 
