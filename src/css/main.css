@@ -562,6 +562,14 @@ body {
   .menu__link{
     font-size: 24px;
   }
+  .page__pagination{
+    right: 25px;
+  }
+  .page__bullet{
+    width: 13px;
+    height: 13px;
+    margin: 9px 0px;
+  }		
 
 }
 @media (min-width: 991px) {
