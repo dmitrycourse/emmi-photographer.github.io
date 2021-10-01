@@ -363,7 +363,7 @@ body {
   /*position: relative;
   z-index: 2; */
 }
-.screen__titlle{
+.screen__title{
   font-size: 60px;
   color: #fff;
   font-weight: 700;
@@ -379,7 +379,7 @@ body {
   left:50%;
   transform:translate(-50%, -50%);
 }
-.screen__titlle_bg{
+.screen__title_bg{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
   
@@ -474,8 +474,8 @@ body {
     font-size: 12px;
     margin: 0px 10px 0px 0px;
   }
-  .screen__titlle{
-    font-size: 40px;
+  .screen__title{
+    font-size: 38px;
   }
   span.button-text{
     font-size: 13px;
