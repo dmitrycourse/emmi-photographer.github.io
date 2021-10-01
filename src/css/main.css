@@ -699,14 +699,7 @@ body {
   color: #43d854;
 }
 
-@media (max-width: 576px) {
-  .container .social{
-    font-size: 1.5rem;
-  }
-  .button--double-border{
-    padding: 8px 36px;
-  }
-}
+
 
 @keyframes colorInstagram {
   from {
@@ -1142,4 +1135,12 @@ button:hover .button-text {
 }
 .button--double-border:hover::before, .button--double-border:hover::after, .button--double-border:focus::before, .button--double-border:focus::after {
   transform: translateY(0);
+}
+@media (max-width: 576px) {
+  .container .social{
+    font-size: 1.5rem;
+  }
+  .button--double-border{
+    padding: 8px 36px;
+  }
 }
