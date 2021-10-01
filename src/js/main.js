@@ -106,12 +106,11 @@ let menuLinks = document.querySelectorAll('.menu__link');
 
 function pagePaginationContacts() {
 
-    
+        let page__pagination__contacts = document.querySelector(".wrapper._loaded .page__pagination");
+
         if (pageSlider.realIndex == 6) {
-            let page__pagination__contacts = document.querySelector(".wrapper._loaded .page__pagination");
             page__pagination__contacts.style.transform = "translate(50px, -50%)";
         } else {
-            let page__pagination__contacts = document.querySelector(".wrapper._loaded .page__pagination");
             page__pagination__contacts.style.transform = "translate(0px, -50%)"; 
         }
 //     if (pageSlider.realIndex - 1 > 0) {
