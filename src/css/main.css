@@ -825,6 +825,9 @@ b, strong {
   .footer__phone, .footer__social{
     font-size: 16px;
   }
+  .screen__image5 img{
+    object-position: top center;
+  }
 }
 
 .main-price{
