@@ -435,6 +435,7 @@ a {
 .icon.arrow-head{
   color:#fff;
   transform: rotate(90deg) ;
+  width: 16px;
 }
 }
 
