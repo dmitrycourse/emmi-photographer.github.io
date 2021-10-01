@@ -561,14 +561,6 @@ body {
   }
   .menu__link{
     font-size: 24px;
-  }
-  .page__pagination{
-    right: 25px;
-  }
-  .page__bullet{
-    width: 13px;
-    height: 13px;
-    margin: 9px 0px;
   }		
 
 }
@@ -589,6 +581,20 @@ body {
   .header__container,
   .footer__container {
     padding: 7px calc(50% - 270px);
+  }
+}
+
+@media (max-width: 768px) {
+  .page__pagination{
+    right: 25px;
+  }
+  .page__bullet{
+    width: 13px;
+    height: 13px;
+    margin: 9px 0px;
+  }
+  .footer__phone, .footer__social{
+    font-size: 16px;
   }
 }
 
