@@ -45,7 +45,7 @@ let pageSlider = new Swiper('.page', {
     watchOverflow: true,
 
     // Скорость
-    speed: 800,
+    speed: 1200,
 
     // Обновить слайдер
     // при изменении элементов слайдера
