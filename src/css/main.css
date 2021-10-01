@@ -584,19 +584,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .page__pagination{
-    right: 25px;
-  }
-  .page__bullet{
-    width: 13px;
-    height: 13px;
-    margin: 9px 0px;
-  }
-  .footer__phone, .footer__social{
-    font-size: 16px;
-  }
-}
+
 
 @media (min-width: 767.98px){
   .header__container,
@@ -807,6 +795,19 @@ b, strong {
   margin-left: 20px;
 }
 
+@media (max-width: 768px) {
+  .page__pagination{
+    right: 25px;
+  }
+  .page__bullet{
+    width: 13px;
+    height: 13px;
+    margin: 9px 0px;
+  }
+  .footer__phone, .footer__social{
+    font-size: 16px;
+  }
+}
 
 .main-price{
   width: 90%;
