@@ -431,6 +431,21 @@ a {
 
 
 
+@media (max-width: 768px){
+.section-link {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.gallery .section-link__text span{
+  color:#fff;
+}
+
+.icon.arrow-head{
+  color:#fff;
+  transform: rotate(90deg) ;
+}
+}
 
   
 
