@@ -699,6 +699,15 @@ body {
   color: #43d854;
 }
 
+@media (max-width: 576px) {
+  .container .social{
+    font-size: 1.5rem;
+  }
+  .button--double-border{
+    padding: 8px 36px;
+  }
+}
+
 @keyframes colorInstagram {
   from {
     stroke: #ffffff;
@@ -912,7 +921,7 @@ button:hover .button-text {
 
 
 .screen__title-under{
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Futura PT Light';
   text-transform: lowercase;
   color: #fff;
