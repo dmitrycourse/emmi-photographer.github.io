@@ -372,7 +372,7 @@ body {
   font-family: 'Futura PT', sans-serif;
 }
 .screen__title-wrapper{
-  width: 100%;
+  width: 90%;
   position: absolute;
   z-index: 2;
   top:50%;
@@ -475,7 +475,7 @@ body {
     margin: 0px 10px 0px 0px;
   }
   .screen__title{
-    font-size: 38px;
+    font-size: 42px;
   }
   span.button-text{
     font-size: 13px;
