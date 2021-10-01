@@ -106,11 +106,11 @@ let menuLinks = document.querySelectorAll('.menu__link');
 
 function swiperParallax() {
 
-    if (pageSlider.realIndex - 1 > 0) {
-        element[pageSlider.realIndex - 1].setAttribute('data-swiper-parallax', "100%");
-        element[pageSlider.realIndex + 1].setAttribute('data-swiper-parallax', "100%");
+//     if (pageSlider.realIndex - 1 > 0) {
+//         element[pageSlider.realIndex - 1].setAttribute('data-swiper-parallax', "100%");
+//         element[pageSlider.realIndex + 1].setAttribute('data-swiper-parallax', "100%");
 
-    }
+//     }
 
     // if (pageSlider.realIndex) {
     //     console.log(pageSlider.realIndex - 1);
@@ -125,7 +125,7 @@ function swiperParallax() {
 //     // }
  }
 
- let options = {threshold: [0.5]};
+ let options = {threshold: [0.9]};
  let observer = new IntersectionObserver(onEntry, options);
  //let elements = document.querySelectorAll(".screen__image");
 
@@ -142,10 +142,15 @@ function onEntry(entry){
      entry.forEach(change => {
              if(change.isIntersecting){
                  //change.target.classList.add("show-animation");
+                 //change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
+                 for (let i = 0; i < 6; i++) {
+                     element[i].dataset.swiperParallax = '100%';
+                 }
+                 //element[1].dataset.swiperParallax = '0%';
                  change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
              };
      });
- } , 1500);
+ } , 0);
 }
 
 
