@@ -43,6 +43,7 @@ let pageSlider = new Swiper('.page', {
     // Отключение функционала
     // если слайдов меньше, чем нужно
     watchOverflow: true,
+    effect: "fade",
 
     // Скорость
     speed: 1200,
