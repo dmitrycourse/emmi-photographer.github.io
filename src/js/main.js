@@ -241,6 +241,13 @@ window.addEventListener('load', function() {
 });
 
 
+let footerBack = document.querySelector(".footer__back");
+footerBack.addEventListener("click", function (e) {
+    pageSlider.slideTo(0, 1000);
+    e.preventDefault(); 
+
+ });
+
 pageSlider.init();
 
 
