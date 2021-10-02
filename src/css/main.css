@@ -44,8 +44,7 @@ body, .preloader {
 }
 
 body {
-  background: #000;
-  color: #3df1f1;
+  background: #fff;
   height: 100%;
   perspective: 40em;
 }
