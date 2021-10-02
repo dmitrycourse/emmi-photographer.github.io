@@ -76,9 +76,13 @@ body {
 }
 #preloader{
   opacity: 1;
+  transition: opacity 0.8s ease 0s;
+
 }
 #preloader.hide {
   opacity: 0;
+  transition: opacity 0.8s ease 0s;
+
 }
 .preloader__ring:nth-child(even) {
   animation-direction: reverse;
