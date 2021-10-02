@@ -276,7 +276,7 @@ a {
   .footer__back .icon {
     transition: 0.2s ease;
   }
-  .footer__back:hover, .footer__social a:hover, .footer__phone a:hover {
+  .footer__social a:hover, .footer__phone a:hover {
     color:#7a956b;
     transition: color 0.3s ease 0s;
   }
