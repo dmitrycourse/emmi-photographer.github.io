@@ -757,6 +757,9 @@ body {
 .main-footer{
   height: 100%;
 }
+.page__screen_7{
+  background-color: #fff;
+}
 .footer__back {
   display: flex;
   flex-direction: column;
