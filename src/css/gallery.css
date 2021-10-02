@@ -58,11 +58,13 @@ ul li {
   width: 100%;
   opacity: 0;
   transition: opacity 0.8s ease 0s;
+  pointer-events: none;
 }
 
 .wrapper._loaded{
   opacity: 1;
   transition: 0.8s ease 0s;
+  pointer-events: all;
 }
 .wrapper._loaded .header{
   transition: transform 0.8s ease 0.8s;
