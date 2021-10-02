@@ -768,6 +768,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+``color: #000;
+  position: absolute;
+  top: 87%;
+  font-family: sans-serif;
 }
 .icon.arrow-head-top {
   display: block;
@@ -776,7 +780,7 @@ body {
 .footer__back .icon {
   transition: 0.2s ease;
 }
-.footer__back:hover, .footer__social a:hover, .footer__phone a:hover {
+.footer__social a:hover, .footer__phone a:hover {
   color:#7a956b;
   transition: color 0.3s ease 0s;
 }
