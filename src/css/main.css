@@ -776,6 +776,8 @@ body {
 .icon.arrow-head-top {
   display: block;
   width: 16px;
+  padding-bottom: 10px;
+
 }
 .footer__back .icon {
   transition: 0.2s ease;
