@@ -231,14 +231,14 @@ for (let index = 0; index < menuLinks.length; index++) {
     });
 }
 
-// window.addEventListener('load', function() {
-//     var preloader = document.getElementById('preloader');
-//     preloader.classList.add('hide');
-//     document.body.style.backgroundColor = '#fff';
-//     setTimeout(function() {
-//         preloader.style.display = 'none';
-//     }, 1000);
-// });
+window.addEventListener('load', function() {
+    var preloader = document.getElementById('preloader');
+    preloader.classList.add('hide');
+    document.body.style.backgroundColor = '#fff';
+    setTimeout(function() {
+        preloader.style.display = 'none';
+    }, 1000);
+});
 
 
 pageSlider.init();
