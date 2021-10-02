@@ -6,7 +6,7 @@ $(window).on('load', function () {
     setTimeout(() => {
         $('.preloader').fadeOut().end().delay(400).fadeOut('slow').add('hide');
         wrapper.classList.add('_loaded');
-    }, 2000);
+    }, 1000);
     
 });
 /*
