@@ -3,6 +3,16 @@
 
 let wrapper = document.querySelector('.wrapper');
 let element = document.querySelectorAll('.screen__image');
+
+window.addEventListener('load', function() {
+    var preloader = document.getElementById('preloader');
+    preloader.classList.add('hide');
+    document.body.style.backgroundColor = '#fff';
+    setTimeout(function() {
+        preloader.style.display = 'none';
+    }, 1000);
+});
+
 let pageSlider = new Swiper('.page', {
     // Свои классы
     wrapperClass: "page__wrapper",
@@ -231,14 +241,14 @@ for (let index = 0; index < menuLinks.length; index++) {
     });
 }
 
-window.addEventListener('load', function() {
-    var preloader = document.getElementById('preloader');
-    preloader.classList.add('hide');
-    document.body.style.backgroundColor = '#fff';
-    setTimeout(function() {
-        preloader.style.display = 'none';
-    }, 1000);
-});
+// window.addEventListener('load', function() {
+//     var preloader = document.getElementById('preloader');
+//     preloader.classList.add('hide');
+//     document.body.style.backgroundColor = '#fff';
+//     setTimeout(function() {
+//         preloader.style.display = 'none';
+//     }, 1000);
+// });
 
 
 let footerBack = document.querySelector(".footer__back");
