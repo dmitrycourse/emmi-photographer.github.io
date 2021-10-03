@@ -213,7 +213,9 @@ a {
 }
 
 
-
+a:hover, a:visited{
+  color:#000;
+}
 
 .footer-main {
     display: flex;
