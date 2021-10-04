@@ -162,7 +162,7 @@ function onEntry(entry){
              if(change.isIntersecting){
                  //change.target.classList.add("show-animation");
                  //change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
-                 for (let i = 0; i < 6; i++) {
+                 for (let i = 0; i < 7; i++) {
                      element[i].dataset.swiperParallax = '100%';
                  }
                  //element[1].dataset.swiperParallax = '0%';
