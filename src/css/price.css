@@ -359,7 +359,9 @@ a {
   .header_container{
     margin-top: 10px;
   }
-
+a:visited{
+	color:#fff;
+}
  .menu__icon{
     z-index: 5;
     display: block;
