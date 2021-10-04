@@ -269,6 +269,9 @@ a {
     align-items: center;
     font-size: 16px;
   }
+.footer__back:hover, .footer__back:visited{
+  color:#000;
+}
   .icon.arrow-head-top {
     display: block;
     width: 16px;
