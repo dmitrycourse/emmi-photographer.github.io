@@ -315,4 +315,10 @@ pageSlider.init();
 // // А также запустим функцию сразу. А то вдруг, элемент изначально видно
 // Visible (element);
 
-
+element.addEventListener('tap',function(e){});
+element.addEventListener('dbltap',function(e){});
+element.addEventListener('longtap',function(e){});
+element.addEventListener('swipeleft',function(e){});
+element.addEventListener('swiperight',function(e){});
+element.addEventListener('swipeup',function(e){});
+element.addEventListener('swipedown',function(e){});
