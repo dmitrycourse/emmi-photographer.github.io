@@ -162,10 +162,10 @@ function onEntry(entry){
                  //change.target.classList.add("show-animation");
                  //change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
                  for (let i = 0; i < 6; i++) {
-                     element[i].dataset.swiperParallax = '100%';
+                     element[i].dataset.swiperParallax = '0%';
                  }
                  //element[1].dataset.swiperParallax = '0%';
-                 change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
+                 //change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
              };
      });
  } , 0);
