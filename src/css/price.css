@@ -196,10 +196,6 @@ main {
   /*box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.6);*/
 }
 
-a:hover, a:visited{
-  color:#000;
-}
-
 .img {
   width: 100%;
 }
@@ -359,9 +355,7 @@ a {
   .header_container{
     margin-top: 10px;
   }
-a:visited{
-	color:#fff;
-}
+
  .menu__icon{
     z-index: 5;
     display: block;
