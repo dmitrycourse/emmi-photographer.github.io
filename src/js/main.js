@@ -11,6 +11,7 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         preloader.style.display = 'none';
     }, 1000);
+    pageSlider.init();
 });
 
 let pageSlider = new Swiper('.page', {
@@ -162,7 +163,7 @@ function onEntry(entry){
                  //change.target.classList.add("show-animation");
                  //change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
                  for (let i = 0; i < 6; i++) {
-                     element[i].dataset.swiperParallax = '50%';
+                     element[i].dataset.swiperParallax = '100%';
                  }
                  //element[1].dataset.swiperParallax = '0%';
                  change.target.dataset.swiperParallax = change.target.dataset.swiperParallaxNew;
@@ -258,7 +259,7 @@ footerBack.addEventListener("click", function (e) {
 
  });
 
-pageSlider.init();
+// pageSlider.init();
 
 
 
