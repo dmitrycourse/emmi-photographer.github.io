@@ -211,7 +211,10 @@ a {
 .section-text__link .icon, .section-link__text .icon {
     transition: 0.3s ease;
 }
-
+.section-link__text:hover .icon.arrow-head{
+  transform: rotate(90deg) translate(0, -10px) ;
+  transition: 0.3s ease;
+}
 
 .footer-main {
     display: flex;
