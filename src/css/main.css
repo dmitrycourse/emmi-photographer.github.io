@@ -774,6 +774,8 @@ body {
 }
 .main-footer{
   height: 100%;
+  position:relative;
+  z-index:2;
 }
 .page__screen_7{
   background-color: #fff;
